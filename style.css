@@ -131,7 +131,9 @@ button {
 .midcontainer {
   max-width: 1440px;
   margin: auto;
-}
+  margin-top: 40px;
+  }
+
 
 .block-no-1 {
   display: flex;
@@ -991,7 +993,7 @@ input::placeholder { */
   max-width: 46px;
   cursor: pointer;
   margin-top: 134px;
-  margin-left: 600px;
+  margin-left: 550px;
   max-height: 10px;
 }
 
