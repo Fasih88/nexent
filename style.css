@@ -5,13 +5,21 @@
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
 
 
 }
 
 .design {
   max-width: 32px;
+  color: #4CAF4F;
+  font-family: "Inter";
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: center;
+
 }
 
 .style-top-box {
@@ -29,8 +37,8 @@ body {
 
 .box1 {
   display: flex;
-  font-family: sans-serif;
-  max-width: 588px;
+  color: #4D4D4D;
+  max-width:588px;
   margin-top: 30px;
   max-height: 24px;
   margin-bottom: 30px;
@@ -52,18 +60,45 @@ body {
   flex-direction: row;
   background-color: #F5F7FA;
 }
-
+.block1:hover{
+  transition:fonnt-size 0.3s ease ;
+  color: rgb(17, 174, 0);
+  
+}
+.block2:hover{
+  transition:fonnt-size 0.3s ease ;
+  color: rgb(17, 174, 0);
+}
+.block5:hover{
+  transition:fonnt-size 0.3s ease ;
+  color: rgb(17, 174, 0);
+}
 .block1 {
   max-width: 46px;
   font-weight: 500;
+  font-family: "inter";
+  cursor: pointer;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
 }
 
+.block3{
+  max-width: 60px;
+  cursor: pointer;
+  font-family: "Inter";
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+
+}
+
 .block2 {
   max-width: 57px;
+  font-family:"inter" ;
   font-weight: 400;
+  cursor: pointer;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
@@ -73,6 +108,7 @@ body {
   max-width: 86px;
   max-height: 24px;
   gap: 10px;
+  cursor: pointer;
   font-size: 400;
   font-weight: 16px;
   line-height: 24px;
@@ -119,7 +155,17 @@ button {
   background: #4caf4f;
   border-style: hidden;
 }
+.designer-3:hover{
+background: rgba(245, 247, 250,0.2 );
+color:yellow ;
 
+}
+.designer-3{
+background-color:rgba(245, 247, 250, 1);
+}
+.stylish:hover{
+  background:rgba(76, 175, 79, 0.7) ;
+}
 .design {
   font-size: 14px;
   font-weight: 500;
@@ -160,7 +206,24 @@ button {
   color: #4d4d4d;
   font-family: sans-serif;
 }
-
+.stylish-tag:hover{
+   color: white;
+  background: #26820b;
+}
+.stylish-tag{
+   max-width: 128px;
+  max-height: 52px;
+  border-radius: 4px;
+  margin-top: 32px;
+  padding-left:32px ;
+  padding-bottom: 14px;
+  padding-right:32px ;
+  padding-top: 14px;
+  color: #ffffff;
+  border-color: #4caf4f;
+  background: #4caf4f;
+  border-style: hidden;
+}
 .style1 {
   color: #4caf4f;
 }
@@ -173,16 +236,35 @@ button {
   letter-spacing: 0%;
   color: #717171;
 }
+.button-text-style{
+  font-family: "Inter";
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
 
 .stylish2 {
-  max-width: 128px;
+  max-width: 151px;
   max-height: 52px;
   border-radius: 4px;
   margin-top: 32px;
+  padding-left:32px ;
+  padding-bottom: 14px;
+  padding-right:32px ;
+  padding-top: 14px;
   color: #ffffff;
   border-color: #4caf4f;
   background: #4caf4f;
   border-style: hidden;
+}
+
+.stylish2:hover{
+color:white;
+background: #367b38;
 }
 
 .box-no-2 {
@@ -446,7 +528,7 @@ button {
 .middle-block2-hadding {
   max-width: 408px;
   max-height: 88px;
-  font-family: sans-serif;
+  font-family:"Inter";
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
@@ -458,7 +540,7 @@ button {
   max-width: 540px;
   margin-top: 8px;
   max-height: 24px;
-  font-family: sans-serif;
+  font-family: "inter";
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -593,10 +675,13 @@ button {
   /* padding-left: 144px;
   padding-right: 144px; */
 }
-
-/* .hading-tag4 {
-  gap: 8px;
-} */
+.hading-tag4{
+  border-radius: 3px;
+}
+ .hading-tag4:hover {
+  color:#4caf4f;
+  background:rgb(18, 61, 2);
+} 
 
 .middle-block-4-images {
   display: flex;
@@ -608,8 +693,8 @@ button {
 
 .middle-block-4-image {
   max-width: 400px;
-  margin-bottom: 32px;
-  margin-top: 32px;
+  margin-bottom: 13px;
+  margin-top: 27px;
   max-height: 400px;
   border-radius: 8px;
   box-shadow: 0px 8px 16px 0px #F5F7FA;
@@ -780,6 +865,10 @@ button {
   text-align: center;
 }
 
+.hover-tag-5:hover{
+   color:#4caf4f;
+  background:rgb(18, 61, 2);
+}
 .block-5-hading5 {
   display: flex;
   margin: auto;
@@ -818,6 +907,10 @@ button {
   text-align: center;
   color: #4D4D4D;
 }
+.second-last-block-button:hover{
+  background: #26820b;
+
+}
 
 .second-last-block-button {
   max-width: 178px;
@@ -825,7 +918,10 @@ button {
   margin: auto;
   cursor: pointer;
   gap: 8px;
-  padding: auto;
+padding-left:32px ;
+padding-bottom:14px ;
+padding-right:32px ;
+padding-top:14px ;
   margin-top: 32px;
   max-height: 52px;
   border-radius: 4px;
