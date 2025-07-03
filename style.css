@@ -156,15 +156,19 @@ button {
   border-style: hidden;
 }
 .designer-3:hover{
-background: rgba(245, 247, 250,0.2 );
-color:yellow ;
-
+  background-color:rgb(205, 202, 202);
+  border-radius: 4px;
+  transition: background-color 0.7s ease ;
+  
 }
 .designer-3{
-background-color:rgba(245, 247, 250, 1);
+  border-radius: hidden;
 }
+
 .stylish:hover{
-  background:rgba(76, 175, 79, 0.7) ;
+  background:rgba(76, 175, 79,0.7) ;
+      transition: background-color 0.3s ease  ;
+  
 }
 .design {
   font-size: 14px;
@@ -207,8 +211,9 @@ background-color:rgba(245, 247, 250, 1);
   font-family: sans-serif;
 }
 .stylish-tag:hover{
-   color: white;
-  background: #26820b;
+    background: rgba(76, 175, 79,0.8);
+    transition: background-color 0.3s ease  ;
+  
 }
 .stylish-tag{
    max-width: 128px;
@@ -247,6 +252,7 @@ vertical-align: middle;
 
 }
 
+
 .stylish2 {
   max-width: 151px;
   max-height: 52px;
@@ -263,8 +269,10 @@ vertical-align: middle;
 }
 
 .stylish2:hover{
-color:white;
-background: #367b38;
+/* transition: background:rgba(76, 175, 79, 0.8)   ;/ */
+transition: background-color 0.3s ease  ;
+ background:rgba(76, 175, 79, 0.8);
+
 }
 
 .box-no-2 {
@@ -679,9 +687,12 @@ background: #367b38;
   border-radius: 3px;
 }
  .hading-tag4:hover {
-  color:#4caf4f;
-  background:rgb(18, 61, 2);
+  color:black;
 } 
+.background-img-hover{
+ 
+ color:black;
+}
 
 .middle-block-4-images {
   display: flex;
@@ -865,10 +876,10 @@ background: #367b38;
   text-align: center;
 }
 
-.hover-tag-5:hover{
-   color:#4caf4f;
-  background:rgb(18, 61, 2);
+.block-5-hading5:hover{
+   color: black;
 }
+
 .block-5-hading5 {
   display: flex;
   margin: auto;
@@ -908,7 +919,7 @@ background: #367b38;
   color: #4D4D4D;
 }
 .second-last-block-button:hover{
-  background: #26820b;
+  background: rgba(76, 175, 79, 0.8);
 
 }
 
@@ -1009,15 +1020,20 @@ padding-top:14px ;
   letter-spacing: 0%;
 }
 
+.paragraph-hover:hover{
+  color: #4caf4f;
+}
+
 .last-paragraph-3 {
   max-width: 160px;
   max-width: 100%;
   display: flex;
   flex-direction: column;
+  cursor: pointer;
   gap: 12px;
-  font-family: sans-serif;
+  font-family: "inter";
   font-weight: 400;
-  color: #F5F7FA;
+  color:#F5F7FA;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0%;
@@ -1032,6 +1048,22 @@ padding-top:14px ;
   gap: 24px;
   max-height: 92px;
 }
+.last-icon-1:hover{
+  background-color: rgb(234, 14, 66);
+  border-radius: 100%;
+ }
+ .last-icon-2:hover{
+  background-color:black;
+  border-radius: 100%;
+ }
+ .last-icon-3:hover{
+  background-color: rgb(30, 198, 244);
+  border-radius: 100%;
+ }
+ .last-icon-4:hover{
+  background-color:red;
+  border-radius: 100%;
+ }
 
 /* .last-block-2-input {
   max-width: 255px;
